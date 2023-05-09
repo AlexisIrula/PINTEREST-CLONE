@@ -59,12 +59,17 @@ body {
   text-decoration: none;
   color: #151515;
 }
-.pinterest {
+.nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
   padding: 0.938rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;;
 }
 .left {
   display: flex;

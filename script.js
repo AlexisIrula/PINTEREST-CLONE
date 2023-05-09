@@ -7,7 +7,7 @@ window.addEventListener('scroll', ()=>{
       }
   }
 });
-//Para agregar imagenes cuando est� scroll infinito
+//Para agregar imagenes cuando estÈ scroll infinito
 const nuevaCard = (i) =>{
   const cont = document.getElementById('wrapper-card');
   const nCard = document.createElement('div');
